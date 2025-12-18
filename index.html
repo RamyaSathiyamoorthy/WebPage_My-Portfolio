@@ -9,31 +9,29 @@
 </head>
 <body>
     <header role="navigation">
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <h1>My Personal information</h1>
+        <nav style="text-align: left;">
+            <button onclick="showSection('about-me')">About Me</button>
+            <button onclick="showSection('projects')">Projects</button>
+            <button onclick="showSection('skills')">Skills</button>
+            <button onclick="showSection('contact')">Contact</button>
         </nav>
-    </header>
-    <section id="about-me">
+        </header>
+        <section id="about-me" style="display:none;">
         <h2>About Me</h2>
         <p>Welcome to my portfolio! I am a passionate developer with experience in various technologies.</p>
-    </section>
-    <section id="projects">
+        </section>
+        <section id="projects" style="display:none;">
         <h2>Projects</h2>
         <article>
             <h3>Project Title</h3>
             <figure>
-                <img src="project-image.jpg" alt="Description of the project image">
-                <figcaption>A brief description of the project.</figcaption>
+            <img src="https://tse2.mm.bing.net/th/id/OIP.2ImA_-_Av9JtnnXeqnPZOgHaBv?cb=ucfimg2&ucfimg=1&w=919&h=216&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Description of the project image">
+            <figcaption>ImageRight Support engineer. ImageRight is a comprehensive document management and workflow automation solution designed specifically for the insurance industry. It helps insurance companies manage documents, automate workflows, and improve efficiency by digitizing and organizing insurance-related documents and routing them through the appropriate processes</figcaption>
             </figure>
         </article>
-        <!-- Repeat for more projects -->
-    </section>
-    <section id="skills">
+        </section>
+        <section id="skills" style="display:none;">
         <h2>Skills</h2>
         <ul>
             <li>HTML</li>
@@ -42,8 +40,8 @@
             <li>React</li>
             <li>Node.js</li>
         </ul>
-    </section>
-    <section id="contact">
+        </section>
+        <section id="contact" style="display:none;">
         <h2>Contact Me</h2>
         <form action="#" method="post">
             <label for="name">Name:</label>
@@ -54,10 +52,11 @@
             <textarea id="message" name="message" required></textarea>
             <button type="submit">Send</button>
         </form>
-    </section>
+        </section>
+   
     <script src="script.js"></script>
-    <footer>
-        <p>&copy; 2023 My Portfolio</p>
-    </footer>
 </body>
+<footer style="text-align: center;">
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
 </html>
